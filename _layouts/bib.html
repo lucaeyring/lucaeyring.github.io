@@ -107,7 +107,7 @@
 
     <!-- Journal/Book title and date -->
     {%- if entry.award %}
-    <p style="color:#f2545b">{{entry.award}}</p>
+    <div style="color:#f2545b">{{entry.award}}</div>
     {%- else -%}
     {% assign proceedings = "inproceedings,incollection" | split: ','%}
     {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
