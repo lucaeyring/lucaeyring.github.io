@@ -2,14 +2,13 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications in reversed chronological order.
+description: Publications in reversed chronological order. (*) denotes equal contribution.
 nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<div>(*) denotes equal contribution</div>
 {% bibliography -f {{ site.scholar.bibliography }} %}
 
 </div>

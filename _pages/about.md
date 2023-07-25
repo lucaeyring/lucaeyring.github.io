@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://ellis.eu/'>ELLIS PhD</a> student in Machine Learning at <a href='https://www.eml-unitue.de/'>EML Tübingen</a>.
+subtitle:
 
 profile:
   align: right
@@ -16,9 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My current research broadly focuses on generative modelling, representation learning and optimal transport.
-Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an <a href='https://ellis.eu/'>ELLIS</a> PhD student in the <a href='https://www.eml-unitue.de/'>Explainable Machine Learning Group</a> at the <a href='https://www.eml-unitue.de/'>University of Tübingen</a> under the supervision of <a href='https://www.eml-unitue.de/people/zeynep-akata'>Zeynep Akata</a>. I am broadly interested in generative modeling, representation learning, and optimal transport.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I pursued a Bachelor in Informatics at <a href='https://www.lmu.de/en/'>LMU Munich</a> and a Master specializing in Machine Learning at <a href='https://www.tum.de/en/'>Technical University of Munich</a>, during which I was fortunate to partake in a number of research projects. I worked on early-stage Alzheimer's classification together with the <a href='http://www.klinikum.uni-muenchen.de/Klinik-und-Poliklinik-fuer-Nuklearmedizin/en/index.html'>LMU Department of Nuclear Medicine</a>, on Transfer Learning for audio classification under <a href='https://www.professoren.tum.de/guennemann-stephan'>Stephan Günnemann</a> which I continued as a working student at <a href='https://www.bmw.com/en/index.html'>BMW</a>, and completed my Master's thesis at <a href='https://www.helmholtz-munich.de/en'>Helmholtz Munich</a>, supervised by <a href='https://sites.google.com/view/nikikilbertus'>Niki Kilbertus</a> and <a href='https://www.helmholtz-munich.de/en/icb/pi/fabian-theis'>Fabian Theis</a>.
