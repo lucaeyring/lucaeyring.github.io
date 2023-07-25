@@ -106,6 +106,9 @@
     </div>
 
     <!-- Journal/Book title and date -->
+    {%- if entry.award %}
+    <p style="color:#f2545b">{{entry.award}}</p>
+    {%- else -%}
     {% assign proceedings = "inproceedings,incollection" | split: ','%}
     {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
     {% if entry.type == "article" -%}
@@ -132,6 +135,7 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+    {%- endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
