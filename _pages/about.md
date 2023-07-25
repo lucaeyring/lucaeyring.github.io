@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://ellis.eu/'>ELLIS PhD</a>  student at <a href='https://www.eml-unitue.de/'>EML Tübingen</a>
 
 profile:
   align: right
