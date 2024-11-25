@@ -161,6 +161,9 @@
       {%- if entry.talk %}
       <a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button">Talk</a>
       {%- endif %}
+      {%- if entry.demo %}
+      <a href="{{ entry.demo }}" class="btn btn-sm z-depth-0" role="button">Demo</a>
+      {%- endif %}
       {%- if entry.supp %}
       {% if entry.supp contains '://' -%}
       <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
