@@ -126,6 +126,9 @@
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{
     entrymonth }}{{ entryyear }}{%- endcapture -%}
+    {%- if entry.extratitle %}
+    <em style="color:#8fa3dd">And in {{entry.extratitle}}</em> 
+    {%- endif %}
     <div style="color:#4b70c9" class="periodical">
       {{ periodical | strip }}
     </div>
